@@ -8,10 +8,10 @@ import androidx.room.PrimaryKey
 data class Item(
     @PrimaryKey(autoGenerate = true)
     val Id: Int = 0,
-    @ColumnInfo(name = "difficulty")
-    val opponentDifficulty: String,
     @ColumnInfo(name = "day")
     val numberOfDay: Int,
+    @ColumnInfo(name = "difficulty")
+    val opponentDifficulty: String,
     @ColumnInfo(name = "class")
     val characterClass: String,
     @ColumnInfo(name = "name")
