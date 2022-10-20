@@ -11,7 +11,7 @@
         <TextView
             android:id="@+id/number_of_day"
             style="@style/Widget.Results.ListItemTextView"
-            android:layout_width="30dp"
+            android:layout_width="35dp"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif"
             android:textSize="16sp"
@@ -24,7 +24,7 @@
         <TextView
             android:id="@+id/difficulty"
             style="@style/Widget.Results.ListItemTextView"
-            android:layout_width="65dp"
+            android:layout_width="62dp"
             android:layout_below="@+id/number_of_day"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif"
@@ -38,7 +38,7 @@
         <TextView
             android:id="@+id/name"
             style="@style/Widget.Results.ListItemTextView"
-            android:layout_width="100dp"
+            android:layout_width="103dp"
             android:layout_below="@+id/difficulty"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif"
@@ -52,7 +52,7 @@
         <TextView
             android:id="@+id/spent_time"
             style="@style/Widget.Results.ListItemTextView"
-            android:layout_width="30dp"
+            android:layout_width="45dp"
             android:layout_below="@+id/name"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif"
@@ -66,7 +66,7 @@
         <TextView
             android:id="@+id/kills"
             style="@style/Widget.Results.ListItemTextView"
-            android:layout_width="40dp"
+            android:layout_width="50dp"
             android:layout_below="@+id/spent_time"
             android:layout_marginStart="8dp"
             android:fontFamily="sans-serif"
